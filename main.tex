@@ -1,0 +1,121 @@
+% !TeX spellcheck = id_ID
+
+%% isi proposal jika masih tahap proposal
+%% isi skripsi jika sudah seminar proposal
+\documentclass[skripsi]{skripsifasilkom}
+
+%--------------------------------------------------
+%Disini awal masukan untuk data proposal skripsi
+%--------------------------------------------------
+
+%isi nama lengkap, npm dan email
+\namalengkap{Junaedi Fahmi}{1510631170081}{junaedi.fahmi15081@student.unsika.ac.id}
+
+
+
+\judulindo{Penerapan \textit{Voice Verification} dan \textit{One Time Password} pada Otentikasi Mesin ATM}
+\juduleng{The Implementation of Voice Verification and One Time Password in ATM Authentication System}
+
+
+\tanggalseminar{19 Februari} %tanggal seminar proposal
+\tanggalsidang{17 April} %tanggal sidang kolokium
+\tahun{2019}
+
+% ubah jika pimpinan berubah
+\koprodi{Jajam Haerul Jaman, SE, M.Kom}{0010117808}
+\dekan{Ade Andri Hendriadi, S.Si, M.Kom}{0402047903}
+
+% untuk pembimbing nama lengkap, nidn, email
+\pembimbingsatu{Nina Sulistiyowati, S.T, M.Kom}{0421108903}{nina.sulistio@staff.unsika.ac.id}
+
+%pembimbing dua diisi ketika sudah mendapat SK
+\pembimbingdua{Aji Primajaya, M.Kom}{0026048706}{aji.primajaya@staff.unsika.ac.id}
+
+%penguji satu diisi saat masih tahap proposal
+\pengujisatu{Penguji Satu}{00000000}
+
+%penguji dua diisi saat akan sidang kolokium
+\pengujidua{Pengujidua}{00000000}
+
+%-----------------------------------------------------------------
+%Disini akhir masukan untuk data proposal skripsi
+%-----------------------------------------------------------------
+\usepackage{lipsum}
+\begin{document}
+
+%% Diisi hanya jika menggunakan option skripsi %%
+%--------------------------------------------%	
+	\begin{persembahan}
+		Untuk aku yang berjuang melawan diri sendiri,
+	\end{persembahan}
+	
+	\begin{motto}
+		Sucikanlah nama Tuhan mu Yang Maha Tinggi
+	\end{motto}
+
+	\begin{abstrak}
+		\lipsum[1]	
+		\katakunci{satu}
+	\end{abstrak}
+
+	\begin{abstract}
+		\lipsum[1]
+		\keywords{One Two}
+	\end{abstract}
+%%--------------------------------------------%
+
+
+%%----------KATA PENGANTAR-------%%
+\begin{katapengantar}
+	\noindent
+	Assalamu'alaikum Wr. Wb.
+	
+	Puji syukur penulis panjatkan ke hadirat Allah SWT karena dengan rahmat dan hidayah-Nya, Proposal Skripsi dengan judul "\textit{\textbf{Penerapan Voice Verification dan One Time Password pada Otentikasi Mesin ATM }}" ini dapat terselesaikan tanpa halangan berarti.
+	
+	Keberhasilan dalam menyusun proposal ini tidak lepas dari bantuan berbagai pihak yang mana dengan tulus dan ikhlas memberikan masukan guna sempurnanya proposal ini. Oleh karena itu dalam kesempatan ini, dengan kerendahan hati penulis mengucapkan terima kasih kepada:
+	
+	\begin{enumerate}
+		\item Bapak Prof. Dr. H. Moh. Wahyudin Zarkasyi, SE, MS, Ak., CPA., selaku rektor Universitas Singaperbangsa Karawang.
+		\item Bapak Ade Andri Hendriadi, S.Si, M. Kom selaku Dekan Fakultas Ilmu Komputer dan Dosen Wali penulis yang senantiasa memberikan motivasi.
+		\item Bapak Aries Suharso, S.Si, M. Kom. selaku Wakil Dekan Fakultas Ilmu Komputer yang senantiasa mendampingi mahasiswa dalam proses pembuatan proposal skripsi ini.
+		\item Bapak Jajam Haerul Jaman, S.E, M.Kom selaku Ketua Program Studi Teknik Informatika.
+		\item Ibu Nina Sulistiyowati, S.T, M.Kom selaku dosen pembimbing yang selalu membimbing baik dalam penyusunan proposal ini maupun dalam hal lain.
+		\item Dosen-dosen Fakultas Ilmu Komputer yang telah memberikan ilmu dan pelajaran hidup bagi penulis.
+		\item Orang tua penulis, Kardi dan Irni Yuningsih yang selalu memberikan semangat dan kehidupan yang baik untuk penulis.
+		\item Kawan seperjuangan Relawan TIK Karawang, yang setia menjadi guru bagi penulis.
+	\end{enumerate}
+	Penulis menyadari bahwa penyusunan proposal skripsi ini jauh dari sempurna. Akhir kata penulis mohon maaf yang sebesar-besarnya apabila ada kekeliruan di dalam penulisan proposal skripsi ini.
+
+\begin{flushleft}
+		Wassalamu'alaikum Wr. Wb.\\
+\end{flushleft}
+	\begin{tabular}{p{7.5cm}c}
+		 & Karawang, 19 Februari 2019\\
+		 &                           \\
+		 &                           \\
+		 &     \textbf{Penulis}
+	\end{tabular} 
+	%%------AKHIR KATA PENGANTAR-----%%
+\end{katapengantar}	
+	
+	\pendahuluan
+	\include{bab1}
+	\include{bab2}
+	\include{bab3}
+	
+%% Jika sudah melaksanakan seminar proposal ini di uncoment
+	\include{bab4}
+	\include{bab5}
+%%----------------------------------------------------------
+
+
+	\singlespacing
+	\bibliography{daftarpustaka}
+	\addcontentsline{toc}{chapter}{DAFTAR PUSTAKA}
+
+	
+%ketika pilih option skripsi ini di uncomment
+ \include{lampiran}
+	
+	
+\end{document}
